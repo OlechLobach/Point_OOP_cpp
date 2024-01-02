@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{6a5a3c0f-279b-490d-8855-f398c4b5769f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="point">
+      <UniqueIdentifier>{5e1f22e4-ba65-4bd5-bc0f-f6ed7cc9b6ed}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="point.cpp">
+      <Filter>point</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="point.h">
+      <Filter>point</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
